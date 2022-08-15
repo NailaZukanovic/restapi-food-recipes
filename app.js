@@ -9,7 +9,7 @@ const recipeRoutes = require('./api/routes/recipes');
 const categoryRoutes = require('./api/routes/category');
 const userRoutes = require('./api/routes/user');
 
-const MONGODB_URI = `mongodb+srv://Muhamed:test123@cluster0-nulcu.mongodb.net/foodrecipes`
+const MONGODB_URI = 'mongodb+srv://mongo:yKI4hF1bRag7TGLq@cluster0.tb2zz.mongodb.net/test'
 
 app.use(morgan('dev'));
 app.use('/uploads', express.static('uploads'));
